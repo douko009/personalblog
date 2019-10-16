@@ -104,3 +104,9 @@ main {
     margin: 20px;
     padding: 50px;  
 }
+
+.main-list-grid h2 {
+    font-size: 4.1rem;
+    font-weight: 300;
+
+}
