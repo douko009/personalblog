@@ -87,6 +87,12 @@ main {
     font-size: 2.2rem;
 }
 
+#mylist {
+    color:white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
 .main-list-grid {
     color:white;
     text-align: center;
@@ -108,5 +114,185 @@ main {
 .main-list-grid h2 {
     font-size: 4.1rem;
     font-weight: 300;
+
+}
+.main-list-grid img {
+    width: 820px;
+    height: 480px;
+    align: center;
+}
+
+footer{
+    color:white;
+    text-align: left;
+    margin: 20px;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+footer textarea{
+    font-size: 5.1rem;
+    color:white;
+}
+
+footer h3{
+    font-size: 2.1rem;
+}
+
+/* Media shit */
+
+@media only screen and (max-width: 600px){
+
+
+html {
+    font-family: serif;
+    margin: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    top: 0;
+    right: 0;
+}
+
+.website-main {
+    background: url(../img/header_background.jpeg) no-repeat center center fixed;
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+
+.website-main-menu ul {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.3rem;
+}
+
+.website-main-menu ul li {
+    margin: 0px 10px;
+    list-style: none;
+}
+
+.website-main-menu .menu-item a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.maintext {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: pink;
+}
+
+.maintext h1 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+}
+
+.maintext h2 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 1.1rem;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#about {
+    text-align: center;
+    padding: 45px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+#about h2 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+#about p {
+    font-weight: 300;
+    margin: 10px;
+    font-size: 1.0rem;
+    margin-top: 10px;
+}
+
+#mylist {
+    color:white;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.nav-menu li {
+    font-size: 1.0rem;
+}
+
+.main-list-grid {
+    color:white;
+    text-align: center;
+}
+
+.main-list-grid {
+    margin: 20px;
+    padding: 30px;
+}
+
+.main-list-grid p {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin: 0px;
+    padding: 1px;  
+}
+
+.main-list-grid h2 {
+    font-size: 1.1rem;
+    font-weight: 300;
+
+}
+.main-list-grid img {
+    width: 320px;
+    height: 230px;
+    align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer{
+    color:white;
+    text-align: left;
+    margin: 20px;
+    font-weight: 300;
+    font-size: 1.0rem;
+}
+
+footer textarea{
+    font-size: 1.1rem;
+    color:white;
+}
+
+footer h3{
+    font-size: 1.1rem;
+}
+
+
 
 }
