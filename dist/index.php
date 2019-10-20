@@ -1,3 +1,4 @@
+<?php 
 $name = $_POST["name"];
 $text = $_POST["mes"];
 $post = $_POST["post"];
@@ -28,3 +29,4 @@ else{
 fclose($read);
 
 }
+?>
